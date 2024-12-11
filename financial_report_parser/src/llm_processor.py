@@ -65,7 +65,8 @@ class LLMProcessor:
                 request_data = {
                     "model": self.model,
                     "messages": messages,
-                    "temperature": self.temperature
+                    "temperature": self.temperature,
+                    "stream": True  # 启用流式输出
                 }
                 
                 # 显示请求信息
@@ -73,17 +74,41 @@ class LLMProcessor:
                 stream_output(f"URL: {self.api_base}")
                 stream_output(f"模型: {self.model}")
                 
+                # 使用stream=True进行请求
                 response = requests.post(
                     self.api_base,
                     headers=headers,
-                    json=request_data
+                    json=request_data,
+                    stream=True
                 )
                 
                 if response.status_code == 401:
-                    raise Exception(f"API认证失败: {response.json()}")
+                    raise Exception(f"API认证失败: {response.text}")
                 
                 response.raise_for_status()
-                return response.json()['choices'][0]['message']['content']
+                
+                # 用于收集完整响应
+                full_response = []
+                
+                # 流式处理响应
+                for line in response.iter_lines():
+                    if line:
+                        # 移除 "data: " 前缀并解析JSON
+                        json_str = line.decode('utf-8').replace('data: ', '')
+                        if json_str.strip() == '[DONE]':
+                            break
+                        
+                        try:
+                            chunk = json.loads(json_str)
+                            if chunk.get('choices') and chunk['choices'][0].get('delta', {}).get('content'):
+                                content = chunk['choices'][0]['delta']['content']
+                                stream_output(content, end='', delay=0)  # 实时输出，无延迟
+                                full_response.append(content)
+                        except json.JSONDecodeError:
+                            continue
+                
+                stream_output('\n')  # 最后添加换行
+                return ''.join(full_response)
                 
             except Exception as e:
                 if attempt == max_retries - 1:

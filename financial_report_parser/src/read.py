@@ -24,6 +24,48 @@ class TextAnalyzer:
         db_path = Path(__file__).parent.parent / "data" / "analysis.db"
         self._init_db(db_path)
         
+        # 加载提示词
+        self.prompts = {
+            "system": """你是一个专业的金融文本分析专家。请分析每个句子并提取以下信息：
+1. 数值型数据：财务数据、业务指标、风险指标等
+2. 非数值信息：政策、战略、风险提示等
+3. 时间信息：具体的时间点或时间范围
+4. 上下文关系：与其他信息的关联""",
+            
+            "user": """请分析以下句子，提取关键信息并按JSON格式返回：
+
+标题信息：
+一级标题：{h1_title}
+二级标题：{h2_title}
+
+句子内容：
+{text}
+
+请返回以下格式的JSON：
+{{
+    "analysis": {{
+        "structured_data": [
+            {{
+                "name": "指标名称",
+                "type": "指标类型",
+                "value": "具体数值",
+                "unit": "单位",
+                "time": "时间信息",
+                "importance": "重要程度1-5"
+            }}
+        ],
+        "unstructured_data": [
+            {{
+                "type": "信息类型",
+                "content": "具体内容",
+                "importance": "重要程度1-5",
+                "time_sensitivity": "时间敏感度"
+            }}
+        ]
+    }}
+}}"""
+        }
+
     def _init_db(self, db_path: Path) -> None:
         """初始化数据库"""
         conn = sqlite3.connect(db_path)
@@ -69,104 +111,117 @@ class TextAnalyzer:
     def _fix_json(self, json_str: str) -> str:
         """尝试修复不完整的JSON"""
         try:
-            # 首先尝试找到最后一个完整的对象
-            last_complete_obj = -1
-            open_count = 0
-            in_string = False
-            escape = False
-            
-            for i, char in enumerate(json_str):
-                if char == '"' and not escape:
-                    in_string = not in_string
-                elif not in_string:
-                    if char == '{':
-                        open_count += 1
-                    elif char == '}':
-                        open_count -= 1
-                        if open_count == 0:
-                            last_complete_obj = i
-                
-                escape = char == '\\' and not escape
-            
-            if last_complete_obj > 0:
-                # 找到最后一个完整的对象，截取到这里
-                json_str = json_str[:last_complete_obj+1]
-                
-                # 检查是否需要补充结构
-                if '"unstructured_data": [' in json_str and not '"extraction_suggestion"' in json_str:
-                    # 补充unstructured_data数组的结束
-                    json_str = json_str.rstrip('}') + '''
+            # 首先尝试找到最后一个完整的结构
+            if '"unstructured_data": [' in json_str:
+                # 找到unstructured_data数组的开始位置
+                start_pos = json_str.find('"unstructured_data": [')
+                if start_pos > 0:
+                    # 找到最后一个完整的对象
+                    last_complete = json_str[:start_pos].rfind('}')
+                    if last_complete > 0:
+                        # 构造新的JSON
+                        fixed_json = json_str[:last_complete+1] + '''
                 ],
-                "extraction_suggestion": {
-                    "prompt_design": {
-                        "system_role": "information_extractor",
-                        "key_focus": "data_accuracy",
-                        "special_requirements": "none"
-                    },
-                    "data_format": {
-                        "suggested_structure": "json",
-                        "field_definitions": "standard",
-                        "validation_rules": "basic"
-                    },
-                    "extraction_strategy": {
-                        "approach": "systematic",
-                        "key_steps": ["identify", "extract", "validate"],
-                        "potential_challenges": "none"
+                "unstructured_data": [
+                    {
+                        "type": "其他信息",
+                        "description": "其他未能完整解析的信息",
+                        "importance": 1,
+                        "related_topics": ["其他"],
+                        "time_sensitivity": "低"
                     }
-                }
-            }'''
-                
-                # 验证修复后的JSON
-                try:
-                    json.loads(json_str)
-                    self.logger.info(f"{Fore.GREEN}JSON修复成功{Style.RESET_ALL}")
-                    return json_str
-                except json.JSONDecodeError as e:
-                    self.logger.warning(f"修复后的JSON仍然无效: {str(e)}")
-            
-            # 如果上述修复失败，尝试更简单的修复
+                ]
+            }
+        }'''
+                        
+                        # 验证修复后的JSON
+                        try:
+                            json.loads(fixed_json)
+                            self.logger.info(f"{Fore.GREEN}JSON修复成功{Style.RESET_ALL}")
+                            return fixed_json
+                        except json.JSONDecodeError:
+                            pass
+
+            # 如果上述修复失败，尝试找到最后一个完整的structured_data项
             if '"structured_data": [' in json_str:
-                # 找到最后一个完整的structured_data项
-                last_item_end = json_str.rfind('},\n            {')
-                if last_item_end > 0:
-                    json_str = json_str[:last_item_end+1] + '''
+                start_pos = json_str.find('"structured_data": [')
+                if start_pos > 0:
+                    # 找到最后一个完整的对象
+                    content = json_str[start_pos:]
+                    bracket_count = 0
+                    last_complete = -1
+                    
+                    for i, char in enumerate(content):
+                        if char == '{':
+                            bracket_count += 1
+                        elif char == '}':
+                            bracket_count -= 1
+                            if bracket_count == 0:
+                                last_complete = start_pos + i
+                    
+                    if last_complete > 0:
+                        # 构造完整的JSON
+                        fixed_json = json_str[:last_complete+1] + '''
                 ],
-                "unstructured_data": [],
-                "extraction_suggestion": {
-                    "prompt_design": {
-                        "system_role": "information_extractor",
-                        "key_focus": "data_accuracy",
-                        "special_requirements": "none"
-                    },
-                    "data_format": {
-                        "suggested_structure": "json",
-                        "field_definitions": "standard",
-                        "validation_rules": "basic"
-                    },
-                    "extraction_strategy": {
-                        "approach": "systematic",
-                        "key_steps": ["identify", "extract", "validate"],
-                        "potential_challenges": "none"
-                    }
-                }
-            }'''
+                "unstructured_data": []
+            }
+        }'''
+                        
+                        try:
+                            json.loads(fixed_json)
+                            self.logger.info(f"{Fore.GREEN}JSON修复成功（基础修复）{Style.RESET_ALL}")
+                            return fixed_json
+                        except json.JSONDecodeError:
+                            pass
+
+            # 如果还是失败，尝试最基本的修复
+            # 计算括号数量
+            open_braces = json_str.count('{')
+            close_braces = json_str.count('}')
+            open_brackets = json_str.count('[')
+            close_brackets = json_str.count(']')
             
-            # 验证最终的JSON
+            # 添加缺失的闭合括号
+            if open_braces > close_braces:
+                json_str += '}' * (open_braces - close_braces)
+            if open_brackets > close_brackets:
+                json_str += ']' * (open_brackets - close_brackets)
+            
+            # 尝试解析修复后的JSON
             try:
                 json.loads(json_str)
-                self.logger.info(f"{Fore.GREEN}JSON修复成功（基础修复）{Style.RESET_ALL}")
+                self.logger.info(f"{Fore.GREEN}JSON修复成功（简单修复）{Style.RESET_ALL}")
                 return json_str
             except json.JSONDecodeError as e:
                 self.logger.error(f"JSON修复失败: {str(e)}")
                 self.logger.error(f"修复后的内容:\n{json_str}")
-                raise
-            
+                
+                # 返回一个基本的有效JSON结构
+                basic_json = {
+                    "analysis": {
+                        "text_type": "未能完整解析的文本",
+                        "main_topic": "解析失败",
+                        "key_elements": [],
+                        "structured_data": [],
+                        "unstructured_data": [
+                            {
+                                "type": "错误信息",
+                                "description": "JSON解析失败，原始内容已保存",
+                                "importance": 1,
+                                "related_topics": ["错误处理"],
+                                "time_sensitivity": "高"
+                            }
+                        ]
+                    }
+                }
+                return json.dumps(basic_json, ensure_ascii=False)
+                
         except Exception as e:
             self.logger.error(f"JSON修复过程出错: {str(e)}")
             raise
 
     def _save_analysis_result(self, block_id: int, block: Dict[str, Any], analysis: Dict[str, Any]) -> None:
-        """保存分析结果到数据库和JSON文件"""
+        """保存分析结果到JSON文件"""
         try:
             # 尝试解析LLM返回的JSON
             if isinstance(analysis.get("raw_analysis"), str):
@@ -201,6 +256,8 @@ class TextAnalyzer:
                 "block_id": block_id,
                 "h1_title": block["h1_title"],
                 "h2_title": block["h2_title"],
+                "page": block["page"],
+                "type": block["type"],
                 "analysis": parsed_analysis
             }
             
@@ -216,64 +273,8 @@ class TextAnalyzer:
             with open(analysis_path, 'w', encoding='utf-8') as f:
                 json.dump(all_analysis, f, ensure_ascii=False, indent=2)
             
-            # 保存到数据库
-            conn = sqlite3.connect(Path(__file__).parent.parent / "data" / "analysis.db")
-            c = conn.cursor()
+            self.logger.info(f"{Fore.GREEN}分析结果已保存到JSON文件{Style.RESET_ALL}")
             
-            try:
-                # 删除已存在的相同block_id的数据
-                c.execute("DELETE FROM block_analysis WHERE block_id = ?", (block_id,))
-                c.execute("DELETE FROM structured_data_analysis WHERE block_id = ?", (block_id,))
-                c.execute("DELETE FROM unstructured_data_analysis WHERE block_id = ?", (block_id,))
-                
-                # 保存基本分析信息
-                c.execute('''INSERT INTO block_analysis 
-                            (block_id, h1_title, h2_title, text_type, main_topic, raw_analysis)
-                            VALUES (?, ?, ?, ?, ?, ?)''',
-                         (block_id, block["h1_title"], block["h2_title"],
-                          parsed_analysis["analysis"].get("text_type", ""),
-                          parsed_analysis["analysis"].get("main_topic", ""),
-                          analysis["raw_analysis"]))
-                
-                # 保存结构化数据分析
-                for item in parsed_analysis["analysis"].get("structured_data", []):
-                    c.execute('''INSERT INTO structured_data_analysis
-                                (block_id, name, type, format, time_info, importance, context)
-                                VALUES (?, ?, ?, ?, ?, ?, ?)''',
-                             (block_id, 
-                              item.get("name", ""),
-                              item.get("type", ""),
-                              item.get("format", ""),
-                              item.get("time_info", ""),
-                              item.get("importance", 0),
-                              item.get("context", "")))
-                
-                # 保存非结构化数据分析
-                for item in parsed_analysis["analysis"].get("unstructured_data", []):
-                    c.execute('''INSERT INTO unstructured_data_analysis
-                                (block_id, type, description, importance, related_topics, time_sensitivity)
-                                VALUES (?, ?, ?, ?, ?, ?)''',
-                             (block_id,
-                              item.get("type", ""),
-                              item.get("description", ""),
-                              item.get("importance", 0),
-                              item.get("related_topics", ""),
-                              item.get("time_sensitivity", "")))
-                
-                conn.commit()
-                self.logger.info(f"{Fore.GREEN}分析结果已保存到数据库{Style.RESET_ALL}")
-                
-            except Exception as e:
-                conn.rollback()
-                self.logger.error(f"{Fore.RED}数据库操作失败: {str(e)}{Style.RESET_ALL}")
-                raise
-            finally:
-                conn.close()
-                
-        except json.JSONDecodeError as e:
-            self.logger.error(f"{Fore.RED}JSON解析失败: {str(e)}{Style.RESET_ALL}")
-            self.logger.error(f"{Fore.RED}原始内容: {analysis.get('raw_analysis', '')}{Style.RESET_ALL}")
-            raise
         except Exception as e:
             self.logger.error(f"{Fore.RED}保存分析结果失败: {str(e)}{Style.RESET_ALL}")
             raise
@@ -419,7 +420,7 @@ class TextAnalyzer:
     def _load_progress(self, progress_path: Path, output_path: Path) -> Dict[str, Any]:
         """加载处理进度"""
         if progress_path.exists():
-            # 如果有进度文件，加载之前的进度
+            # 如果有进度文件���加载之前的进度
             self.logger.info(f"{Fore.YELLOW}发现未完成的处理进度{Style.RESET_ALL}")
             with open(progress_path, 'r', encoding='utf-8') as f:
                 return json.load(f)
@@ -461,102 +462,39 @@ class TextAnalyzer:
         self.logger.info(f"\n{Fore.CYAN}【文本内容】{Style.RESET_ALL}")
         self.logger.info(block['text'])
         
-        # 构造分析提示词
-        self.logger.info(f"\n{Fore.MAGENTA}【分析提示词】{Style.RESET_ALL}")
+        # 使用统一的分析提示词
         analysis_prompt = {
             "messages": [
                 {
                     "role": "system",
-                    "content": """你是一个专业的文本分析专家，擅长从各类文本中提取有价值的信息。你需要：
-1. 理解文本的上下文和主题
-2. 识别所有可能的结构化数据（如数字、指标、比率等）
-3. 提取重要的非结构化信息（如政策、战略、风险等）
-4. 确保信息的完整性和准确性
-5. 保持数据的时间属性
-
-分析要求：
-1. 结构化数据必须包含：
-   - 具体的数值
-   - 完整的时间信息
-   - 准确的单位
-   - 必要的上下文
-   - 重要程度评估
-
-2. 非结构化信息必须说明：
-   - 信息类型
-   - 具体内容
-   - 重要程度
-   - 时间敏感度
-   - 相关主题
-
-3. 特别注意：
-   - 数值的精确性
-   - 时间的连续性
-   - 逻辑的完整性
-   - 上下文的关联性"""
+                    "content": self.prompts["system"]
                 },
                 {
                     "role": "user",
-                    "content": f"""请分析以下文本，并按照规定格式返回JSON结果：
-
-标题信息：
-一级标题：{block['h1_title']}
-二级标题：{block['h2_title']}
-
-文本内容：
-{block['text']}
-
-返回格式要求：
-{{
-    "analysis": {{
-        "text_type": "文本的主要类型和特征",
-        "main_topic": "文本的主要主题",
-        "key_elements": ["关键要素1", "关键要素2", ...],
-        "structured_data": [
-            {{
-                "name": "指标名称",
-                "type": "指标类型",
-                "format": "数据格式",
-                "value": "具体数值",
-                "unit": "单位",
-                "time_info": "时间信息",
-                "importance": "重要程度1-5",
-                "context": "上下文说明"
-            }}
-        ],
-        "unstructured_data": [
-            {{
-                "type": "信息类型",
-                "content": "具体内容",
-                "importance": "重要程度1-5",
-                "time_sensitivity": "时间敏感度",
-                "related_topics": ["相关主题1", "相关主题2"]
-            }}
-        ]
-    }}
-}}
-
-注意事项：
-1. 所有数值必须保持原始精度
-2. 时间信息要标准化（如：2023年度、2023年12月末）
-3. 重要程度使用1-5的整数表示
-4. 相关主题使用数组形式
-5. 确保JSON格式完整且有效"""
+                    "content": self.prompts["user"].format(
+                        h1_title=block['h1_title'],
+                        h2_title=block['h2_title'],
+                        text=block['text']
+                    )
                 }
             ]
         }
         
         # 显示提示词
+        self.logger.info(f"\n{Fore.MAGENTA}【分析提示词】{Style.RESET_ALL}")
         self.logger.info(json.dumps(analysis_prompt, ensure_ascii=False, indent=2))
         
         # 调用LLM并流式显示结果
         self.logger.info(f"\n{Fore.GREEN}【LLM分析结果】{Style.RESET_ALL}")
         response = self.llm._call_llm(analysis_prompt["messages"])
         
-        # 流式输出LLM返回结果
-        for char in response:
-            stream_output(char, end='', delay=0.001)
-        stream_output('\n')
+        # 验证JSON完整性
+        try:
+            json.loads(response)
+            self.logger.info(f"{Fore.GREEN}JSON格式验证通过{Style.RESET_ALL}")
+        except json.JSONDecodeError as e:
+            self.logger.warning(f"{Fore.YELLOW}JSON格式不完整，尝试修复...{Style.RESET_ALL}")
+            response = self._fix_json(response)
         
         return {
             "raw_analysis": response,
@@ -865,6 +803,157 @@ class TextAnalyzer:
         """保存提示词配置"""
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(prompts, f, ensure_ascii=False, indent=2)
+
+    def _analyze_sentence(self, sentence: Dict[str, Any]) -> Dict[str, Any]:
+        """分析单个句子"""
+        # 显示分隔线和句子信息
+        self.logger.info(f"\n{Fore.YELLOW}{'='*50}{Style.RESET_ALL}")
+        self.logger.info(f"{Fore.YELLOW}开始分析句子{Style.RESET_ALL}")
+        
+        # 显示文本信息
+        self.logger.info(f"\n{Fore.CYAN}【标题信息】{Style.RESET_ALL}")
+        self.logger.info(f"一级标题: {sentence['h1_title']}")
+        self.logger.info(f"二级标题: {sentence['h2_title']}")
+        self.logger.info(f"页码: {sentence['page']}")
+        self.logger.info(f"文本长度: {sentence['length']} 字符")
+        
+        # 显示完整文本内容
+        self.logger.info(f"\n{Fore.CYAN}【文本内容】{Style.RESET_ALL}")
+        self.logger.info(sentence['text'])
+        
+        # 使用统一的分析提示词
+        analysis_prompt = {
+            "messages": [
+                {
+                    "role": "system",
+                    "content": self.prompts["system"]
+                },
+                {
+                    "role": "user",
+                    "content": self.prompts["user"].format(
+                        h1_title=sentence['h1_title'],
+                        h2_title=sentence['h2_title'],
+                        text=sentence['text']
+                    )
+                }
+            ]
+        }
+        
+        # 显示提示词
+        self.logger.info(f"\n{Fore.MAGENTA}【分析提示词】{Style.RESET_ALL}")
+        self.logger.info(json.dumps(analysis_prompt, ensure_ascii=False, indent=2))
+        
+        # 调用LLM并流式显示结果
+        self.logger.info(f"\n{Fore.GREEN}【LLM分析结果】{Style.RESET_ALL}")
+        response = self.llm._call_llm(analysis_prompt["messages"])
+        
+        # 验证JSON完整性
+        try:
+            json.loads(response)
+            self.logger.info(f"{Fore.GREEN}JSON格式验证通过{Style.RESET_ALL}")
+        except json.JSONDecodeError as e:
+            self.logger.warning(f"{Fore.YELLOW}JSON格式不完整，尝试修复...{Style.RESET_ALL}")
+            response = self._fix_json(response)
+        
+        return {
+            "raw_analysis": response,
+            "sentence_type": sentence["type"]
+        }
+
+    def analyze_sentences(self, input_path: Path) -> None:
+        """分析所有句子"""
+        # 加载句子数据
+        with open(input_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            sentences = data["blocks"]  # 现在blocks中存储的是句子
+        
+        total = len(sentences)
+        self.logger.info(f"\n{Fore.CYAN}开始分析 {total} 个句子{Style.RESET_ALL}")
+        
+        # 创建进度条
+        progress = ProgressBar(total, prefix='分析句子:', suffix='完成')
+        
+        # 分析每个句子
+        for i, sentence in enumerate(sentences, 1):
+            try:
+                # 分析句子
+                result = self._analyze_sentence(sentence)
+                
+                # 保存到数据库
+                self._save_to_db(result, sentence)
+                
+                # 更新进度
+                progress.print(i)
+                
+                # 每100个句子显示一次统计
+                if i % 100 == 0:
+                    self._show_stats(i, total)
+                    
+            except Exception as e:
+                self.logger.error(f"{Fore.RED}处理句子时出错: {str(e)}{Style.RESET_ALL}")
+                continue
+        
+        self.logger.info(f"\n{Fore.GREEN}分析完成！共处理 {total} 个句子{Style.RESET_ALL}")
+
+    def _save_to_db(self, result: Dict[str, Any], sentence: Dict[str, Any]) -> None:
+        """保存分析结果到数据库"""
+        try:
+            # 解析分析结果
+            analysis = json.loads(result["raw_analysis"])
+            
+            # 插入句子基本信息
+            cursor = self.conn.cursor()
+            cursor.execute('''
+                INSERT INTO sentence_analysis 
+                (sentence_id, h1_title, h2_title, text, page, type, created_at)
+                VALUES (?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            ''', (
+                sentence.get("id", 0),
+                sentence["h1_title"],
+                sentence["h2_title"],
+                sentence["text"],
+                sentence["page"],
+                sentence["type"]
+            ))
+            
+            sentence_analysis_id = cursor.lastrowid
+            
+            # 保存结构化数据
+            for item in analysis.get("structured_data", []):
+                cursor.execute('''
+                    INSERT INTO structured_data
+                    (sentence_analysis_id, name, type, value, unit, time, importance)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                ''', (
+                    sentence_analysis_id,
+                    item.get("name"),
+                    item.get("type"),
+                    item.get("value"),
+                    item.get("unit"),
+                    item.get("time"),
+                    item.get("importance")
+                ))
+            
+            # 保存非结构化数据
+            for item in analysis.get("unstructured_data", []):
+                cursor.execute('''
+                    INSERT INTO unstructured_data
+                    (sentence_analysis_id, type, content, importance, time_sensitivity)
+                    VALUES (?, ?, ?, ?, ?)
+                ''', (
+                    sentence_analysis_id,
+                    item.get("type"),
+                    item.get("content"),
+                    item.get("importance"),
+                    item.get("time_sensitivity")
+                ))
+            
+            self.conn.commit()
+            
+        except Exception as e:
+            self.logger.error(f"{Fore.RED}保存到数据库时出错: {str(e)}{Style.RESET_ALL}")
+            self.conn.rollback()
+            raise
 
 def main():
     # 设置路径
