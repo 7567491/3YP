@@ -1,0 +1,112 @@
+{
+  "financial_data": [
+    {
+      "indicator_name": "资产规模",
+      "value": 3063.53,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "个人存款",
+      "value": 170000,
+      "unit": "万元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "贷款余额",
+      "value": 1559.88,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "净利润",
+      "value": 30.15,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "永续债发行",
+      "value": 55,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "支持省市重点项目数量",
+      "value": 117,
+      "unit": "个",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "累计授信",
+      "value": 364.82,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "已完成信贷投放",
+      "value": 216.95,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "普惠贷款增长",
+      "value": 18.41,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "普惠贷款客户总量",
+      "value": 24364,
+      "unit": "户",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "绿色信贷余额",
+      "value": 414.84,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "碳减排支持工具贷款",
+      "value": 6.79,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "获得碳减排支持工具资金",
+      "value": 3.78,
+      "unit": "亿元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "慈善信托捐赠活动",
+      "value": 44,
+      "unit": "场",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "慈善信托捐赠金额",
+      "value": 900,
+      "unit": "万元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "慈善信托累计捐款捐物",
+      "value": 2779.6,
+      "unit": "万元",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "对接市场主体数量",
+      "value": 10300,
+      "unit": "户",
+      "time": "2023年"
+    },
+    {
+      "indicator_name": "提供资金支持",
+      "value": 570,
+      "unit": "亿元",
+      "time": "2023年"
+    }
+  ]
+}

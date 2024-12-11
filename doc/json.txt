@@ -1,0 +1,100 @@
+
+json数据格式设计
+{
+  "report_info": {
+    "year": 2023,
+    "company_name": "唐山银行股份有限公司",
+    "report_date": "2024-03-30",
+    "file_path": "/annual/2023年报.pdf"
+  },
+  
+  "financial_data": {
+    "balance_sheet": {
+      "period_end_date": "2023-12-31",
+      "unit": "万元",
+      "items": [
+        {
+          "name": "资产总计",
+          "value": 1234567.89,
+          "parent_item": null
+        },
+        {
+          "name": "发放贷款和垫款",
+          "value": 567890.12,
+          "parent_item": "资产总计"
+        }
+      ]
+    },
+    
+    "income_statement": {
+      "period_end_date": "2023-12-31",
+      "unit": "万元",
+      "items": [
+        {
+          "name": "营业收入",
+          "value": 98765.43,
+          "parent_item": null
+        },
+        {
+          "name": "利息净收入",
+          "value": 45678.90,
+          "parent_item": "营业收入"
+        }
+      ]
+    },
+    
+    "cash_flow": {
+      "period_end_date": "2023-12-31",
+      "unit": "万元",
+      "items": [
+        {
+          "name": "经营活动产生的现金流量净额",
+          "value": 34567.89,
+          "parent_item": null
+        }
+      ]
+    }
+  },
+  
+  "text_contents": {
+    "business_analysis": {
+      "section_name": "经营情况讨论与分析",
+      "contents": [
+        {
+          "title": "总体经营情况",
+          "content": "2023年，面对复杂多变的经济金融环境...",
+          "key_points": [
+            "存款规模稳步增长",
+            "资产质量持续改善"
+          ]
+        }
+      ]
+    },
+    
+    "risk_factors": {
+      "section_name": "风险管理",
+      "contents": [
+        {
+          "title": "信用风险",
+          "content": "本行持续完善信用风险管理体系...",
+          "key_points": [
+            "不良贷款率下降",
+            "拨备覆盖率提升"
+          ]
+        }
+      ]
+    }
+  },
+  
+  "processing_info": {
+    "status": "completed",
+    "processing_time": "2024-04-26T10:30:00",
+    "logs": [
+      {
+        "type": "info",
+        "timestamp": "2024-04-26T10:29:30",
+        "message": "开始处理PDF文件"
+      }
+    ]
+  }
+}

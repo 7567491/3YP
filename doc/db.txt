@@ -1,0 +1,50 @@
+数据库表结构
+
+1. 年报基本信息表 (annual_reports)
+CREATE TABLE annual_reports (
+    report_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    year INTEGER NOT NULL,              -- 年份
+    company_name TEXT NOT NULL,         -- 公司名称
+    report_date DATE NOT NULL,          -- 报告日期
+    file_path TEXT NOT NULL,            -- PDF文件路径
+    status TEXT DEFAULT 'pending',      -- 处理状态：pending/processing/completed/failed
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+财务指标表 (financial_indicators)
+
+CREATE TABLE financial_indicators (
+    indicator_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    report_id INTEGER NOT NULL,         -- 关联到年报表
+    category TEXT NOT NULL,             -- 指标类别：资产负债表/利润表/现金流量表
+    indicator_name TEXT NOT NULL,       -- 指标名称
+    value DECIMAL(20,2) NOT NULL,       -- 数值
+    unit TEXT NOT NULL,                 -- 单位：万元/亿元
+    period_end_date DATE NOT NULL,      -- 期末日期
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (report_id) REFERENCES annual_reports(report_id)
+);
+
+3. 文本内容表 (report_contents)
+CREATE TABLE report_contents (
+    content_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    report_id INTEGER NOT NULL,         -- 关联到年报表
+    section_name TEXT NOT NULL,         -- 章节名称
+    content_type TEXT NOT NULL,         -- 内容类型：经营分析/风险提示/重要事项等
+    content TEXT NOT NULL,              -- 具体内容
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (report_id) REFERENCES annual_reports(report_id)
+);
+
+
+4. 处理日志表 (processing_logs)
+CREATE TABLE processing_logs (
+    log_id INTEGER PRIMARY KEY AUTOINCREMENT,
+    report_id INTEGER NOT NULL,         -- 关联到年报表
+    log_type TEXT NOT NULL,             -- 日志类型：info/warning/error
+    message TEXT NOT NULL,              -- 日志信息
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (report_id) REFERENCES annual_reports(report_id)
+);
+
