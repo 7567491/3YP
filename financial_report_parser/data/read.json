@@ -9210,6 +9210,7549 @@
           ]
         }
       }
+    },
+    {
+      "block_id": 355,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "行业分布",
+              "content": "电力、热力、燃气及水生产和供应",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 356,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款总额",
+              "type": "财务数据",
+              "value": "2293030",
+              "unit": "未提供",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "行业分布差额",
+              "type": "财务数据",
+              "value": "-142037",
+              "unit": "未提供",
+              "time": "未提供",
+              "importance": "4"
+            },
+            {
+              "name": "行业分布总额",
+              "type": "财务数据",
+              "value": "2435067",
+              "unit": "未提供",
+              "time": "未提供",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "数值信息",
+              "content": "数字2293030、2435067和-142037可能代表贷款总额、行业分布总额和行业分布差额。",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 357,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "二、贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "业",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 358,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "住宿和餐饮业贷款",
+              "type": "贷款行业分布",
+              "value": "1812830",
+              "unit": "元",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "住宿和餐饮业贷款",
+              "type": "贷款行业分布",
+              "value": "1297770",
+              "unit": "元",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "住宿和餐饮业贷款",
+              "type": "贷款行业分布",
+              "value": "515060",
+              "unit": "元",
+              "time": "未提供",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "行业分类",
+              "content": "住宿和餐饮业",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 359,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "文化、体育和娱乐业贷款",
+              "type": "贷款行业分布",
+              "value": "270710",
+              "unit": "元",
+              "time": "未提供",
+              "importance": "4"
+            },
+            {
+              "name": "文化、体育和娱乐业贷款",
+              "type": "贷款行业分布",
+              "value": "226341",
+              "unit": "元",
+              "time": "未提供",
+              "importance": "4"
+            },
+            {
+              "name": "文化、体育和娱乐业贷款差额",
+              "type": "贷款行业分布",
+              "value": "44369",
+              "unit": "元",
+              "time": "未提供",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "行业分类",
+              "content": "文化、体育和娱乐业",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 360,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "信息传输、软件和信息技术服务业贷款",
+              "type": "贷款行业分布",
+              "value": "71352",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "信息传输、软件和信息技术服务业贷款",
+              "type": "贷款行业分布",
+              "value": "28275",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "信息传输、软件和信息技术服务业贷款",
+              "type": "贷款行业分布",
+              "value": "43077",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "信息传输、软件和信息技术服务业",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 361,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "农、林、牧、渔业贷款",
+              "type": "贷款行业分布",
+              "value": "59518",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "农、林、牧、渔业贷款",
+              "type": "贷款行业分布",
+              "value": "42497",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "农、林、牧、渔业贷款",
+              "type": "贷款行业分布",
+              "value": "17021",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "行业分类",
+              "content": "农、林、牧、渔业",
+              "importance": "5",
+              "time_sensitivity": "无"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 362,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "教育行业贷款",
+              "type": "贷款金额",
+              "value": "33760",
+              "unit": "元",
+              "time": "",
+              "importance": "3"
+            },
+            {
+              "name": "教育行业贷款变化",
+              "type": "贷款金额变化",
+              "value": "-6295",
+              "unit": "元",
+              "time": "",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "行业分布",
+              "content": "教育行业贷款金额为33760元，较之前减少6295元。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 363,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "居民服务、修理和其他服务业贷款",
+              "type": "贷款行业分布",
+              "value": "28608",
+              "unit": "未提供",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "居民服务、修理和其他服务业贷款",
+              "type": "贷款行业分布",
+              "value": "17550",
+              "unit": "未提供",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "居民服务、修理和其他服务业贷款",
+              "type": "贷款行业分布",
+              "value": "11058",
+              "unit": "未提供",
+              "time": "未提供",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "行业分类",
+              "content": "居民服务、修理和其他服务业",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 364,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "卫生和社会工作贷款",
+              "type": "贷款行业分布",
+              "value": "10",
+              "unit": "百分比",
+              "time": "",
+              "importance": "3"
+            },
+            {
+              "name": "卫生和社会工作贷款金额",
+              "type": "贷款金额",
+              "value": "41200",
+              "unit": "元",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "卫生和社会工作贷款变化",
+              "type": "贷款变化",
+              "value": "-41190",
+              "unit": "元",
+              "time": "",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "行业分类",
+              "content": "卫生和社会工作",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 365,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "二、贷款的主要行业分布",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "三、最大十名贷款客户情况",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 366,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "二、贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "告",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 367,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "前十名客户贷款余额",
+              "type": "财务数据",
+              "value": "23294500",
+              "unit": "千元",
+              "time": "报告期末",
+              "importance": "5"
+            },
+            {
+              "name": "前十名客户贷款余额占比",
+              "type": "业务指标",
+              "value": "未提供具体数值",
+              "unit": "比例",
+              "time": "报告期末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款分布",
+              "content": "本行前十名客户贷款余额占期末各项贷款余额的比例",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 368,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "二、贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 369,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款行业分布比例",
+              "type": "财务数据",
+              "value": "14.93%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "资本净额占比",
+              "type": "财务数据",
+              "value": "73.50%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 370,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "前十名贷款客户余额",
+              "type": "财务数据",
+              "value": "未提供具体数值",
+              "unit": "未提供单位",
+              "time": "未提供时间信息",
+              "importance": "5"
+            },
+            {
+              "name": "占各项贷款余额比例",
+              "type": "财务数据",
+              "value": "未提供具体数值",
+              "unit": "未提供单位",
+              "time": "未提供时间信息",
+              "importance": "5"
+            },
+            {
+              "name": "占资本净额比例",
+              "type": "财务数据",
+              "value": "未提供具体数值",
+              "unit": "未提供单位",
+              "time": "未提供时间信息",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "业务指标",
+              "content": "前十名贷款客户余额、占各项贷款余额比例及占资本净额比例",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 371,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "二、贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 372,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "单位信息",
+              "content": "单位：人民币 千元",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 373,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款净额",
+              "type": "财务数据",
+              "value": "",
+              "unit": "元",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "占各项贷款余额比例",
+              "type": "业务指标",
+              "value": "",
+              "unit": "%",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "占资本净额比例",
+              "type": "业务指标",
+              "value": "",
+              "unit": "%",
+              "time": "",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "表格标题",
+              "content": "贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不敏感"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 374,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "XX企业贷款金额",
+              "type": "财务数据",
+              "value": "2955000",
+              "unit": "",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业贷款占比",
+              "type": "业务指标",
+              "value": "1.89%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业不良贷款率",
+              "type": "风险指标",
+              "value": "9.32%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "XX企业在贷款的主要行业分布中占有重要地位，贷款金额为2955000，占总贷款的1.89%，不良贷款率为9.32%。",
+              "importance": "5",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 375,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款金额",
+              "type": "财务数据",
+              "value": "2897000",
+              "unit": "未知单位",
+              "time": "未知",
+              "importance": "5"
+            },
+            {
+              "name": "行业占比",
+              "type": "业务指标",
+              "value": "1.86%",
+              "unit": "百分比",
+              "time": "未知",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款率",
+              "type": "风险指标",
+              "value": "9.14%",
+              "unit": "百分比",
+              "time": "未知",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "行业分布",
+              "content": "贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 376,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "XX企业贷款金额",
+              "type": "财务数据",
+              "value": "2500000",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业贷款占比",
+              "type": "业务指标",
+              "value": "60%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业不良贷款率",
+              "type": "风险指标",
+              "value": "7.89%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "XX企业在贷款的主要行业分布中占有重要地位，贷款金额为250万，占总贷款的60%，不良贷款率为7.89%。",
+              "importance": "5",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 377,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "企业数量",
+              "type": "业务指标",
+              "value": "4",
+              "unit": "个",
+              "time": "",
+              "importance": "3"
+            },
+            {
+              "name": "贷款金额",
+              "type": "财务数据",
+              "value": "2388500",
+              "unit": "元",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "贷款占比",
+              "type": "业务指标",
+              "value": "1.53%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "不良贷款率",
+              "type": "风险指标",
+              "value": "7.54%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "XX企业贷款的主要行业分布情况",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 378,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "企业数量",
+              "type": "业务指标",
+              "value": "5",
+              "unit": "个",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "贷款金额",
+              "type": "财务数据",
+              "value": "2317000",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "贷款占比",
+              "type": "业务指标",
+              "value": "1.49%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "不良贷款率",
+              "type": "风险指标",
+              "value": "7.31%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "行业分布",
+              "content": "贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 379,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "XX企业贷款金额",
+              "type": "财务数据",
+              "value": "2236000",
+              "unit": "",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "XX企业贷款占比",
+              "type": "业务指标",
+              "value": "1.43%",
+              "unit": "",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "XX企业不良贷款率",
+              "type": "风险指标",
+              "value": "7.06%",
+              "unit": "",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "XX企业在贷款的主要行业分布中占比1.43%，不良贷款率为7.06%",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 380,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "XX企业贷款金额",
+              "type": "财务数据",
+              "value": "2146000",
+              "unit": "默认单位（如无明确单位则不填）",
+              "time": "默认时间（如无明确时间则不填）",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业贷款占比",
+              "type": "业务指标",
+              "value": "1.38%",
+              "unit": "百分比",
+              "time": "默认时间（如无明确时间则不填）",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业不良贷款率",
+              "type": "风险指标",
+              "value": "6.77%",
+              "unit": "百分比",
+              "time": "默认时间（如无明确时间则不填）",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "XX企业在贷款的主要行业分布中的具体数值和比例",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 381,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "XX企业贷款金额",
+              "type": "财务数据",
+              "value": "2040000",
+              "unit": "未提供",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业贷款占比",
+              "type": "业务指标",
+              "value": "1.31%",
+              "unit": "百分比",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业不良贷款率",
+              "type": "风险指标",
+              "value": "6.44%",
+              "unit": "百分比",
+              "time": "未提供",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "XX企业在贷款的主要行业分布中的金额、占比和不良贷款率",
+              "importance": "5",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 382,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款金额",
+              "type": "财务数据",
+              "value": "1960000",
+              "unit": "元",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "贷款占比",
+              "type": "业务指标",
+              "value": "1.26%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款率",
+              "type": "风险指标",
+              "value": "6.18%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "XX企业贷款的主要行业分布情况",
+              "importance": "5",
+              "time_sensitivity": "不敏感"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 383,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "XX企业贷款金额",
+              "type": "财务数据",
+              "value": "1855000",
+              "unit": "未提供",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业贷款占比",
+              "type": "业务指标",
+              "value": "1.19%",
+              "unit": "百分比",
+              "time": "未提供",
+              "importance": "5"
+            },
+            {
+              "name": "XX企业不良贷款率",
+              "type": "风险指标",
+              "value": "5.85%",
+              "unit": "百分比",
+              "time": "未提供",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款行业分布",
+              "content": "贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 384,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款总额",
+              "type": "财务数据",
+              "value": "23294500",
+              "unit": "",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "贷款行业分布占比",
+              "type": "业务指标",
+              "value": "14.93%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "贷款行业分布占比",
+              "type": "业务指标",
+              "value": "73.50%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "二、贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 385,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款余额",
+              "type": "财务数据",
+              "value": "155987592",
+              "unit": "千元",
+              "time": "报告期末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "截至报告期末",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 386,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "资本金净额",
+              "type": "财务数据",
+              "value": "31692611.78",
+              "unit": "千元",
+              "time": "报告期末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "财务信息",
+              "content": "本行资本金净额",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 387,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 24,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款的主要行业分布",
+              "type": "数值型数据",
+              "value": "22",
+              "unit": "",
+              "time": "",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "二、贷款的主要行业分布",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 388,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2023",
+              "importance": "3",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 389,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "非数值信息",
+              "content": "唐山银行",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 390,
+      "h1_title": "二、贷款的主要行业分布",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "二、贷款的主要行业分布",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "年度报告",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 391,
+      "h1_title": "四、贷款管理情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款余额",
+              "type": "财务数据",
+              "value": "155987592",
+              "unit": "千元",
+              "time": "报告期末",
+              "importance": "5"
+            },
+            {
+              "name": "贷款余额增加额",
+              "type": "财务数据",
+              "value": "24499511",
+              "unit": "千元",
+              "time": "年初至报告期末",
+              "importance": "5"
+            },
+            {
+              "name": "贷款余额增幅",
+              "type": "业务指标",
+              "value": "18.63%",
+              "unit": "百分比",
+              "time": "年初至报告期末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款管理情况",
+              "content": "截至报告期末，全行贷款余额155987592千元，较年初增加24499511千元，增幅为18.63%。",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 392,
+      "h1_title": "四、贷款管理情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "法人客户贷款余额",
+              "type": "财务数据",
+              "value": "150357112",
+              "unit": "千元",
+              "time": "较年初",
+              "importance": "5"
+            },
+            {
+              "name": "法人客户贷款余额增加额",
+              "type": "财务数据",
+              "value": "23030821",
+              "unit": "千元",
+              "time": "较年初",
+              "importance": "5"
+            },
+            {
+              "name": "法人客户贷款余额增幅",
+              "type": "业务指标",
+              "value": "18.09",
+              "unit": "%",
+              "time": "较年初",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款管理情况",
+              "content": "法人客户贷款余额150357112千元，较年初增加23030821千元，增幅为18.09%。",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 393,
+      "h1_title": "四、贷款管理情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "客户分类",
+              "content": "自然人客户",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 394,
+      "h1_title": "四、贷款管理情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款余额",
+              "type": "财务数据",
+              "value": "5630481",
+              "unit": "千元",
+              "time": "较年初",
+              "importance": "5"
+            },
+            {
+              "name": "贷款余额增加额",
+              "type": "财务数据",
+              "value": "1468690",
+              "unit": "千元",
+              "time": "较年初",
+              "importance": "5"
+            },
+            {
+              "name": "贷款余额增幅",
+              "type": "业务指标",
+              "value": "35.29",
+              "unit": "%",
+              "time": "较年初",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "贷款管理情况",
+              "content": "贷款余额为5630481千元，较年初增加1468690千元，增幅为35.29%。",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 395,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "授信方式构成",
+              "content": "本行贷款授信方式以保证和信用为主",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "时间信息",
+              "content": "截至报告期末",
+              "importance": "3",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 396,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：存量贷款授信方式占比及变化情况",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：无",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "数据描述",
+              "content": "表所示",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 397,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "单位信息",
+              "content": "单位：人民币 千元",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 398,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "分类标签",
+              "content": "质押、抵押、保证、信用",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 399,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "5231253",
+              "unit": "",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "13342564",
+              "unit": "",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "59284150",
+              "unit": "",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "34940416",
+              "unit": "",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "112798383",
+              "unit": "",
+              "time": "2021年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2021年12月末",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 400,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "6227704",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "14819733",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "74826670",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "35613974",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "131488081",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2022年12月末",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 401,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "13195884",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "15936301",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "102966649",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "23888758",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款授信方式占比",
+              "type": "财务数据",
+              "value": "155987592",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2023年12月末",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 402,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（一）存量贷款授信方式占比及变化情况",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：无",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "报",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 403,
+      "h1_title": "（一）存量贷款授信方式占比及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（一）存量贷款授信方式占比及变化情况",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "告",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 404,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（二）存量贷款逾期及变化情况 正",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "文",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 405,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "贷款构成描述",
+              "content": "按照逾期情况，本行贷款构成情况如下：",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 406,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "单位信息",
+              "content": "单位：人民币 千元",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 407,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "逾期1天至逾期90天",
+              "type": "逾期天数范围",
+              "value": "1-90",
+              "unit": "天",
+              "time": "",
+              "importance": "3"
+            },
+            {
+              "name": "逾期90天至逾期360天",
+              "type": "逾期天数范围",
+              "value": "90-360",
+              "unit": "天",
+              "time": "",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "逾期分类",
+              "content": "逾期1天至逾期90天和逾期90天至逾期360天是两个不同的逾期阶段。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 408,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "逾期贷款信息",
+              "content": "逾期3年及以上的贷款情况",
+              "importance": "4",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 409,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "未逾期贷款",
+              "type": "贷款逾期情况",
+              "value": "未提供具体数值",
+              "unit": "未提供单位",
+              "time": "未提供具体时间",
+              "importance": "3"
+            },
+            {
+              "name": "90天（含）以上逾期贷款",
+              "type": "贷款逾期情况",
+              "value": "未提供具体数值",
+              "unit": "未提供单位",
+              "time": "未提供具体时间",
+              "importance": "3"
+            },
+            {
+              "name": "360天（含）以上逾期贷款",
+              "type": "贷款逾期情况",
+              "value": "未提供具体数值",
+              "unit": "未提供单位",
+              "time": "未提供具体时间",
+              "importance": "3"
+            },
+            {
+              "name": "至3年（含）以上逾期贷款",
+              "type": "贷款逾期情况",
+              "value": "未提供具体数值",
+              "unit": "未提供单位",
+              "time": "未提供具体时间",
+              "importance": "3"
+            },
+            {
+              "name": "总计逾期贷款",
+              "type": "贷款逾期情况",
+              "value": "未提供具体数值",
+              "unit": "未提供单位",
+              "time": "未提供具体时间",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "逾期贷款分类",
+              "content": "贷款逾期分为未逾期、90天（含）以上、360天（含）以上、至3年（含）以上四个类别",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 410,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "存量贷款逾期及变化情况",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 411,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "逾期贷款天数",
+              "type": "逾期指标",
+              "value": "90天、360天、3年",
+              "unit": "天、年",
+              "time": "未提供具体时间点",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "逾期贷款时间范围",
+              "content": "提及了90天、360天和3年三个不同的逾期贷款时间范围",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 412,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款逾期金额",
+              "type": "财务数据",
+              "value": "111816578",
+              "unit": "元",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "逾期贷款笔数",
+              "type": "业务指标",
+              "value": "38225",
+              "unit": "笔",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "逾期90天以上贷款金额",
+              "type": "风险指标",
+              "value": "393473",
+              "unit": "元",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "逾期90天以上贷款笔数",
+              "type": "风险指标",
+              "value": "544039",
+              "unit": "笔",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款金额",
+              "type": "风险指标",
+              "value": "6069",
+              "unit": "元",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款笔数",
+              "type": "风险指标",
+              "value": "112798383",
+              "unit": "笔",
+              "time": "2021年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2021年12月末",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 413,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款逾期金额",
+              "type": "财务数据",
+              "value": "130843863",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "逾期贷款笔数",
+              "type": "业务指标",
+              "value": "64924",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "逾期90天以上贷款金额",
+              "type": "风险指标",
+              "value": "242810",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "逾期90天以上贷款笔数",
+              "type": "风险指标",
+              "value": "326413",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款金额",
+              "type": "风险指标",
+              "value": "10071",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款笔数",
+              "type": "风险指标",
+              "value": "131488081",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2022年12月末",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 414,
+      "h1_title": "（二）存量贷款逾期及变化情况 正",
+      "h2_title": "",
+      "page": 25,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款逾期金额",
+              "type": "财务数据",
+              "value": "155218986",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "逾期贷款笔数",
+              "type": "业务指标",
+              "value": "104379",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "逾期90天以上贷款笔数",
+              "type": "风险指标",
+              "value": "47041",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款总额",
+              "type": "财务数据",
+              "value": "309085",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款总额变化",
+              "type": "财务数据",
+              "value": "308101",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款率",
+              "type": "风险指标",
+              "value": "155987592",
+              "unit": "",
+              "time": "2023年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2023年12月末",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 415,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "流动资金贷款余额",
+              "type": "财务数据",
+              "value": "上升",
+              "unit": "",
+              "time": "较年初",
+              "importance": "4"
+            },
+            {
+              "name": "固定资产贷款占比",
+              "type": "财务数据",
+              "value": "上升",
+              "unit": "",
+              "time": "较年初",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "业务变化",
+              "content": "全行流动资金贷款余额、占比较年初有所上升",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务变化",
+              "content": "固定资产贷款占比较年初有所上升",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 416,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "业务变化",
+              "content": "年初个人贷款占比较年初有所下降",
+              "importance": "4",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "贷款构成",
+              "content": "各项贷款构成情况如下",
+              "importance": "3",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 417,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "货币单位",
+              "content": "单位：人民币 千元",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 418,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "贷款业务种类",
+              "content": "流动资金贷款、固定资产贷款、个人贷款",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 419,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "贷款余额",
+              "type": "财务数据",
+              "value": "",
+              "unit": "",
+              "time": "",
+              "importance": "3"
+            },
+            {
+              "name": "占贷款总额比",
+              "type": "财务数据",
+              "value": "",
+              "unit": "%",
+              "time": "",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "存量贷款业务种类分布及变化情况",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 420,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "65650176",
+              "unit": "数量单位",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布占比",
+              "type": "业务指标",
+              "value": "58.20%",
+              "unit": "百分比",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "43172471",
+              "unit": "数量单位",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布占比",
+              "type": "业务指标",
+              "value": "38.27%",
+              "unit": "百分比",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "3975736",
+              "unit": "数量单位",
+              "time": "2021年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布占比",
+              "type": "业务指标",
+              "value": "3.52%",
+              "unit": "百分比",
+              "time": "2021年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "存量贷款业务种类分布及变化情况",
+              "content": "存量贷款业务种类分布及变化情况",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 421,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款业务总额",
+              "type": "财务数据",
+              "value": "80238617",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "某类贷款业务占比",
+              "type": "业务指标",
+              "value": "61.02%",
+              "unit": "百分比",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "另一类贷款业务总额",
+              "type": "财务数据",
+              "value": "47087674",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "另一类贷款业务占比",
+              "type": "业务指标",
+              "value": "35.81%",
+              "unit": "百分比",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "第三类贷款业务总额",
+              "type": "财务数据",
+              "value": "4161791",
+              "unit": "",
+              "time": "2022年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "第三类贷款业务占比",
+              "type": "业务指标",
+              "value": "3.17%",
+              "unit": "百分比",
+              "time": "2022年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "存量贷款业务分布",
+              "content": "存量贷款业务种类分布及变化情况",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 422,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "114289869",
+              "unit": "无",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "73.27%",
+              "unit": "百分比",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "36067243",
+              "unit": "无",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "23.12%",
+              "unit": "百分比",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "5630481",
+              "unit": "无",
+              "time": "2023年12月末",
+              "importance": "5"
+            },
+            {
+              "name": "存量贷款业务种类分布",
+              "type": "业务指标",
+              "value": "3.61%",
+              "unit": "百分比",
+              "time": "2023年12月末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "存量贷款业务种类分布及变化情况",
+              "content": "存量贷款业务种类分布及变化情况",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 423,
+      "h1_title": "（三）存量贷款业务种类分布及变化情况",
+      "h2_title": "",
+      "page": 25,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "存量贷款业务种类分布及变化情况",
+              "type": "业务指标",
+              "value": "23",
+              "unit": "",
+              "time": "",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "存量贷款业务种类分布及变化情况",
+              "importance": "3",
+              "time_sensitivity": "不敏感"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 424,
+      "h1_title": "（四）不良贷款状况",
+      "h2_title": "",
+      "page": 26,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "不良贷款余额",
+              "type": "财务数据",
+              "value": "1438727",
+              "unit": "千元",
+              "time": "报告期末",
+              "importance": "5"
+            },
+            {
+              "name": "不良贷款增加额",
+              "type": "财务数据",
+              "value": "245603",
+              "unit": "千元",
+              "time": "年初至报告期末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "不良贷款状况",
+              "content": "截至报告期末，本行不良贷款余额为1438727千元，较年初增加245603千元。",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 425,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "抵债资产余额",
+              "type": "财务数据",
+              "value": "92985",
+              "unit": "千元",
+              "time": "报告期末",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "抵债资产情况",
+              "content": "本行抵债资产余额为92985千元，具体情况见下表。",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 426,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "单位信息",
+              "content": "单位：人民币 千元",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 427,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2023年末",
+              "importance": "3",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 428,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "资产分类",
+              "content": "抵债资产分类",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 429,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "抵债资产余额",
+              "type": "财务数据",
+              "value": "",
+              "unit": "",
+              "time": "",
+              "importance": "3"
+            },
+            {
+              "name": "抵债资产占比",
+              "type": "财务数据",
+              "value": "",
+              "unit": "",
+              "time": "",
+              "importance": "3"
+            },
+            {
+              "name": "抵债资产质量分类",
+              "type": "风险指标",
+              "value": "",
+              "unit": "",
+              "time": "",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "五、抵债资产情况",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 430,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "土地使用权损失",
+              "type": "财务指标",
+              "value": "337",
+              "unit": "0.36%",
+              "time": "",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "抵债资产情况",
+              "content": "土地使用权损失",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 431,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "土地使用权",
+              "type": "抵债资产",
+              "value": "47300",
+              "unit": "50.87%",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "资产状况",
+              "content": "可疑",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 432,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "海航信托受益权",
+              "type": "财务数据",
+              "value": "45348",
+              "unit": "",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "海航信托受益权占比",
+              "type": "业务指标",
+              "value": "48.77%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "5"
+            },
+            {
+              "name": "海航信托受益权状态",
+              "type": "风险指标",
+              "value": "正常",
+              "unit": "",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "抵债资产情况",
+              "content": "海航信托受益权45348 48.77%正常",
+              "importance": "5",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 433,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "合计抵债资产",
+              "type": "财务数据",
+              "value": "92985",
+              "unit": "100%",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": []
+        }
+      }
+    },
+    {
+      "block_id": 434,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "五、抵债资产情况",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 435,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "可能造成重大影响的风险因素及对策",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 436,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "五、抵债资产情况",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：无",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "正",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 437,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "经营中面临的主要风险包括信用风险、操作风险、市场风险、流动性风险、信息科技风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 438,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "声誉风险、战略风险等。",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 439,
+      "h1_title": "五、抵债资产情况",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "经营状况",
+              "content": "报告期内，未出现对经营有重大影响的情况，也未造成重大损失。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 440,
+      "h1_title": "（一）信用风险",
+      "h2_title": "",
+      "page": 26,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "信用风险管理状况",
+              "content": "报告期内，本行信用风险运行管理状况较好，各项信用风险统计指标均继续保持向好趋势。",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 441,
+      "h1_title": "（一）信用风险",
+      "h2_title": "",
+      "page": 26,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "信用风险",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 442,
+      "h1_title": "（一）信用风险",
+      "h2_title": "",
+      "page": 26,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "通过完善政策制度流程体系、建立健全风控模型体系、优化信贷管理系统等举措",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险类型",
+              "content": "信用风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 443,
+      "h1_title": "（一）信用风险",
+      "h2_title": "",
+      "page": 26,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "险管理指标继续保持了良好的水平，信用风险防控扎扎实实的落到了实处。",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 444,
+      "h1_title": "1.完善授信制度体系，促进授信业务管理规范化",
+      "h2_title": "",
+      "page": 26,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "根据监管政策要求修订授信管理制度",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "风险管理",
+              "content": "根据风险管理需要修订授信管理制度",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "内审整改",
+              "content": "根据内审整改要求修订授信管理制度",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "授信业务管理",
+              "content": "修订授信管理制度以促进授信业务管理规范化",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "公司名称",
+              "content": "唐山银行股份有限公司",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 445,
+      "h1_title": "1.完善授信制度体系，促进授信业务管理规范化",
+      "h2_title": "",
+      "page": 26,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "《唐山银行股份有限公司关联交易管理办法》《唐山银行股份有限公司关联交易管理实施细则》",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "战略",
+              "content": "完善授信制度体系，促进授信业务管理规范化",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 446,
+      "h1_title": "1.完善授信制度体系，促进授信业务管理规范化",
+      "h2_title": "",
+      "page": 26,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "《集团客户授信管理办法》《唐山银行股份有限公司统一授信管理办法》《唐山银行股份有限公司授信管理办法》",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "战略",
+              "content": "完善授信制度体系，促进授信业务管理规范化",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 447,
+      "h1_title": "1.完善授信制度体系，促进授信业务管理规范化",
+      "h2_title": "",
+      "page": 26,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "完善授信制度体系，促进授信业务管理规范化",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "政策",
+              "content": "《信业务担保管理办法》《唐山银行股份有限公司信贷资产质量分类管理办法》《唐山银行股份有限公司》",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 448,
+      "h1_title": "1.完善授信制度体系，促进授信业务管理规范化",
+      "h2_title": "",
+      "page": 26,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "《公司法人客户授信业务管理办法》等，明晰管理要求，增强制度的可操作性，促进业务合规发展。",
+              "importance": "5",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 449,
+      "h1_title": "2.持续做好风险模型管理，推进风控数字化体系建设",
+      "h2_title": "",
+      "page": 26,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "战略",
+              "content": "启动了风控平台优化项目",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "战略",
+              "content": "进一步满足不同场景智能风控需要",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "战略",
+              "content": "提升风控模型、策略智能化管理",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 450,
+      "h1_title": "2.持续做好风险模型管理，推进风控数字化体系建设",
+      "h2_title": "",
+      "page": 26,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "持续做好风险模型管理，推进风控数字化体系建设",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "能力提升",
+              "content": "理能力",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 451,
+      "h1_title": "2.持续做好风险模型管理，推进风控数字化体系建设",
+      "h2_title": "",
+      "page": 26,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "持续校准内评模型，结合业务实际、内评结果及数据情况，增加项目公司等非零售客户评",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 452,
+      "h1_title": "2.持续做好风险模型管理，推进风控数字化体系建设",
+      "h2_title": "",
+      "page": 26,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "新增零售产品模型数量",
+              "type": "业务指标",
+              "value": "3",
+              "unit": "个",
+              "time": "",
+              "importance": "4"
+            },
+            {
+              "name": "非零售客户评级模型调优数量",
+              "type": "业务指标",
+              "value": "7",
+              "unit": "个",
+              "time": "",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "持续做好风险模型管理，推进风控数字化体系建设",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "产品信息",
+              "content": "新增自营税E贷等3个零售产品模型",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 453,
+      "h1_title": "2.持续做好风险模型管理，推进风控数字化体系建设",
+      "h2_title": "",
+      "page": 26,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "自营税E贷风控模型",
+              "type": "业务指标",
+              "value": "完成研发、验证及正式上线",
+              "unit": "",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "持续做好风险模型管理，推进风控数字化体系建设",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "业务进展",
+              "content": "完成自营税E贷贷前、贷中、贷后全流程自主风控模型研发、验证及正式上线",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 454,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 26,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策/战略",
+              "content": "推进信贷系统群优化，提升授信业务信息化管理能力",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 455,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2023",
+              "importance": "3",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 456,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "机构名称",
+              "content": "唐山银行",
+              "importance": "3",
+              "time_sensitivity": "低"
+            },
+            {
+              "type": "战略规划",
+              "content": "推进信贷系统群优化,提升授信业务信息化管理能力",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 457,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "年度报告",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 458,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "信贷系统群业务需求书完成数量",
+              "type": "业务指标",
+              "value": "20份",
+              "unit": "份",
+              "time": "报告期内",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "战略信息",
+              "content": "本行持续优化信贷系统群功能",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务进展",
+              "content": "全年完成信贷系统群业务需求书20份",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务目标",
+              "content": "提升授信业务信息化管理能力",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 459,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "信贷系统群升级次数",
+              "type": "业务指标",
+              "value": "16",
+              "unit": "次",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "业务优化",
+              "content": "推进信贷系统群优化",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "信息化管理能力提升",
+              "content": "提升授信业务信息化管理能力",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "系统升级内容",
+              "content": "涉及客户信息、授信额度、调查申请、合同管理、贷后管理、风险分类、押品",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 460,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "功能点开发数量",
+              "type": "业务指标",
+              "value": "70",
+              "unit": "项",
+              "time": "",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "业务进展",
+              "content": "推进信贷系统群优化，提升授信业务信息化管理能力，包括管理、行长驾驶舱等模块的功能点开发、测试、上线工作。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 461,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "业务战略",
+              "content": "推进信贷系统群优化",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务战略",
+              "content": "提升授信业务信息化管理能力",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务需求",
+              "content": "根据本行业务需要完成个",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 462,
+      "h1_title": "3.推进信贷系统群优化,提升授信业务信息化管理能力",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "业务优化",
+              "content": "推进信贷系统群优化,提升授信业务信息化管理能力",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "技术创新",
+              "content": "人住房按揭贷款线上审批功能的开发",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险管理",
+              "content": "智能化提示业务风险",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "效率提升",
+              "content": "有效提升审批效率",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 463,
+      "h1_title": "（二）操作风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理战略",
+              "content": "本行操作风险管理旨在通过建立合理、完善、有效的操作风险管理机制，充分提高本行操作风险管理能力。",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 464,
+      "h1_title": "（二）操作风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "险管理能力，防范内外部各类操作风险。",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 465,
+      "h1_title": "（二）操作风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理情况",
+              "content": "报告期内本行操作风险管理情况良好",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务运行状况",
+              "content": "各条线业务能够安全",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 466,
+      "h1_title": "（二）操作风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "运营状态",
+              "content": "持续、稳健运行",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 467,
+      "h1_title": "（二）操作风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "开展操作风险识别与评估、监测与报告以及控制与缓释",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "风险降低",
+              "content": "切实降低操作风险",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 468,
+      "h1_title": "（二）操作风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "操作风险隐患",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 469,
+      "h1_title": "1.建立健全操作风险管理组织架构，明确各层级职责",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策/战略",
+              "content": "本行建立与业务性质、规模和复杂程度相适应的操作风险管理体系",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "政策/战略",
+              "content": "能有效地识别、评估、监控操作风险",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 470,
+      "h1_title": "1.建立健全操作风险管理组织架构，明确各层级职责",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "建立健全操作风险管理组织架构，明确各层级职责，测和控制/缓释操作风险，各项管理工作符合监管要求。",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 471,
+      "h1_title": "1.建立健全操作风险管理组织架构，明确各层级职责",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策/战略",
+              "content": "建立健全操作风险管理架构，明确董事会职责",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 472,
+      "h1_title": "1.建立健全操作风险管理组织架构，明确各层级职责",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "组织架构",
+              "content": "建立健全操作风险管理组织架构",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "职责明确",
+              "content": "明确各层级职责",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 473,
+      "h1_title": "1.建立健全操作风险管理组织架构，明确各层级职责",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "组织架构",
+              "content": "建立健全操作风险管理组织架构，明确各层级职责",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "职责分配",
+              "content": "下设专业委员会、高级管理层、操作风险管理部门、各职能部门各分支机构及相关岗位在操作风",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 474,
+      "h1_title": "1.建立健全操作风险管理组织架构，明确各层级职责",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "建立健全操作风险管理组织架构，明确各层级职责",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 475,
+      "h1_title": "1.建立健全操作风险管理组织架构，明确各层级职责",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策与战略",
+              "content": "制定本行操作风险政策、战略及管理制度",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "组织架构与职责",
+              "content": "建立健全操作风险管理组织架构，明确各层级职责",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "报告路径",
+              "content": "明确操作风险报告的路径",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 476,
+      "h1_title": "1.建立健全操作风险管理组织架构，明确各层级职责",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "建立健全操作风险管理组织架构，明确各层级职责",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 477,
+      "h1_title": "2.建立健全内部控制制度，提高全员风险管理主体意识",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "内部控制制度",
+              "content": "本行业务管理部门不断评估各类规章制度的适用性，按需对各类业务制度进行及时",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 478,
+      "h1_title": "2.建立健全内部控制制度，提高全员风险管理主体意识",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "建立健全各项内部控制制度",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "战略",
+              "content": "提高全员风险管理主体意识",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "战略",
+              "content": "确保业务开展有据可依",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 479,
+      "h1_title": "2.建立健全内部控制制度，提高全员风险管理主体意识",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "本行不断提高全员风险管理主体意识",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 480,
+      "h1_title": "2.建立健全内部控制制度，提高全员风险管理主体意识",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "深化操作风险防控综合治理工作，营造风险防范人人有责的文化氛围。",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 481,
+      "h1_title": "3.完善操作风险管理监督检查与培训机制，筑牢操作风险管理防线",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "本行三道防线协同联动，全面排查全行操作风险薄弱环节和问题隐患，加大对违规",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 482,
+      "h1_title": "3.完善操作风险管理监督检查与培训机制，筑牢操作风险管理防线",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "强化操作风险防范工作责任制，建立内部举报投诉制度",
+              "importance": "5",
+              "time_sensitivity": "低"
+            },
+            {
+              "type": "合规性措施",
+              "content": "操作的惩罚力度和责任追究",
+              "importance": "5",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 483,
+      "h1_title": "3.完善操作风险管理监督检查与培训机制，筑牢操作风险管理防线",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "部门名称",
+              "content": "教育培训部",
+              "importance": "3",
+              "time_sensitivity": "低"
+            },
+            {
+              "type": "政策/战略",
+              "content": "完善操作风险管理监督检查与培训机制，筑牢操作风险管理防线",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 484,
+      "h1_title": "3.完善操作风险管理监督检查与培训机制，筑牢操作风险管理防线",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "同步开展各类员工素质和专业技能培训，提高全行员工综合素质，从根本上筑牢本行操作风险管理防线。",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 485,
+      "h1_title": "3.完善操作风险管理监督检查与培训机制，筑牢操作风险管理防线",
+      "h2_title": "",
+      "page": 27,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "完善操作风险管理监督检查与培训机制，筑牢操作风险管理防线",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 486,
+      "h1_title": "4.建立健全操作风险信息报送、反馈机制，发现风险隐患及时化解",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "操作风险管理",
+              "content": "本行定期收集下级各单位月度操作风险报告",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "业务流程问题",
+              "content": "针对反映的业务流程问题或建议",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险隐患化解",
+              "content": "发现风险隐患及时化解",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 487,
+      "h1_title": "4.建立健全操作风险信息报送、反馈机制，发现风险隐患及时化解",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "建立健全操作风险信息报送、反馈机制，发现风险隐患及时化解",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "业务流程优化",
+              "content": "进一步完善本行各项业务操作流程",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "效率提升",
+              "content": "提高业务办理效率",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险控制",
+              "content": "控制业务操作风险",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 488,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "本行建立了与自身相适应的市场风险管理架构和管理体系",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "风险管理策略",
+              "content": "实施稳健、审慎的市场风险管理策",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 489,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "市场风险政策与本行发展战略、风险偏好、风险管理能力相统一。",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 490,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "董事会承担对市场风险管理",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 491,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "实施监控的最终责任",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 492,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理职责",
+              "content": "高管层负责统筹市场风险的具体管理工作",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 493,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "组织结构",
+              "content": "监事会负责对董事会和高管层的监督",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 494,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "市场风险管理中的履职情况进行监督评价",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 495,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策/战略",
+              "content": "风险管理部负责将市场风险管理纳入全面风险管理框架",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 496,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 27,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "市场风险指标",
+              "type": "数值型数据",
+              "value": "25",
+              "unit": "",
+              "time": "",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": []
+        }
+      }
+    },
+    {
+      "block_id": 497,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理流程",
+              "content": "市场风险由内部统筹管理，并向董事会及高管层报告市场风险管理情况。",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 498,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策/战略",
+              "content": "计划财务部作为市场风险的主管部门",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 499,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "组织对市场风险进行识别、计量、监测和控制",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 500,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "业务部门",
+              "content": "金融市场部等承担市场风险的业务经营部门",
+              "importance": "3",
+              "time_sensitivity": "低"
+            },
+            {
+              "type": "风险管理",
+              "content": "根据市场风险管理要求",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 501,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "风险限额指标及资产负债管理计划开展业务，实施具体市场风险识别、计量、监测和控制",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 502,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：市场风险，二级标题：无",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "内控合",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 503,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "合规性与有效性监督",
+              "content": "规部对市场风险管理的合规性及有效性进行监督和检查",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 504,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "审计部门对市场风险管理情况定期进行独立审计",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 505,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "检查行为",
+              "content": "立检查",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 506,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "本行所面临的市场风险主要包括利率风险和汇率风险。",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 507,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理方法",
+              "content": "本行主要采用重定价缺口分析",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 508,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "市场风险管理方法",
+              "content": "净利息收入和经济价值敏感性分析、外汇敞口分析、压力测试等方法计量、监测和分析市场风险",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 509,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险评估",
+              "content": "经对市场风险计量方法及结果进行事后检验与评估，本行采用的市场风险计量方法合理。",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 510,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "市场风险",
+              "content": "本行持续",
+              "importance": "3",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 511,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "开展市场风险限额管理",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险控制",
+              "content": "报告期内各项市场风险指标均控制在设定的限额范围内",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 512,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "市场风险",
+              "content": "本行组合运用资",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 513,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理方法",
+              "content": "使用产负债数量工具、内部资金转移定价工具、绩效考核和内部资本充足评估等方法开展市场风险管理",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 514,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险控制",
+              "content": "实现对市场风险水平的有效控制，确保市场风险水平控制在可承受范围内。",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 515,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "市场风险管理",
+              "content": "本行定期组织开展市场",
+              "importance": "3",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 516,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险评估",
+              "content": "压力测试结果显示本行市场风险整体控制在合理水平。",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 517,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策与战略",
+              "content": "本行认真贯彻落实监管政策和内部管理要求",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "市场风险",
+              "content": "密切关注宏观经济和市场形势变化",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 518,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（三）市场风险",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "告",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 519,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "强化对利率风险监测和管理",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "资产负债管理",
+              "content": "动态调整资产负债规模和期限结构",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险测试与应急",
+              "content": "做好市场风险压力测试和应急管理",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 520,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（三）市场风险",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：无",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "正",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 521,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "全面加强市场风险识别、计量、监控与报告",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 522,
+      "h1_title": "（三）市场风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "本行总体利率风险和汇率风险管控效果良好。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 523,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "本行已建立流动性风险管理体系",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "组织架构",
+              "content": "明确了董事会、高管层、监事会、流动性风险管理部门、业务部门的职责",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 524,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "职责信息",
+              "content": "财务部门、审计部门等的职责。",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 525,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "董事会承担流动性风险管理的最终责任",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 526,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "高管层负责流动性风险的具体管理",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 527,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险管理",
+              "content": "体管理工作",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 528,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "监事会负责对董事会和高管层在流动性风险管理中的履职情况进行监督评价",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 529,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "流动性风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 530,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "理部门是流动性风险管理的牵头部门",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 531,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策/战略",
+              "content": "计划财务部门是流动性风险的主管部门",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 532,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "审计部门对流动性",
+              "importance": "3",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 533,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "管理情况定期进行独立检查，涵盖流动性风险管理的所有环节",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 534,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "其他相关部门为流动性风险管理的",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 535,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "组织结构",
+              "content": "职能部门",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 536,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "流动性风险管理策略、政策和程序",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "业务范围",
+              "content": "涵盖了表内外各项业务",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "情景分析",
+              "content": "包括正常和压力情况下",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 537,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "流动性风险管理",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务考量",
+              "content": "综合考虑业务发展、技术更新和市场变化等因素",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "策略调整",
+              "content": "适时对流动性风险",
+              "importance": "3",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 538,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理策略",
+              "content": "管理策略、政策和程序进行评估和修订。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 539,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险管理",
+              "content": "流动性风险管理策略明确了本行流动性风险管理的总体目标",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 540,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理方法",
+              "content": "流动性风险管理识别、计量、监测、控制的主要方法包括现金流分析、限额管理",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 541,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "融资管理、日间流动性风险管理、压力测试、应急计划、优质流动性资产管理",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险因素",
+              "content": "其他影响流动性风险的因素",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 542,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "流动性风险管理程序包括对流动性风险识别、计量、监测、控制的全流程管理。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 543,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险因素",
+              "content": "商业银行流动性主要受到市场利率、货币政策变化等外部因素及商业银行资产负债期限结构的影响",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 544,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险因素",
+              "content": "不良贷款增长、信用评级等内部因素的影响。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 545,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "为有效管控流动性风险，本行流动性风险管理具体措施",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 546,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险管理措施",
+              "content": "建立了完整的现金流测算和分析框架，有效计量、监测和控制现金流缺口",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "流动性风险管理措施",
+              "content": "对本行正常",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 547,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险分析",
+              "content": "和压力情景下未来不同时段的流动性风险水平及优质流动性资产储备情况进行前瞻性分析",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 548,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "建立适合的流动性风险管理措施",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 549,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 28,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（四）流动性风险 二级标题：",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "数值型数据",
+              "content": "26",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 550,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "时间信息",
+              "content": "2023",
+              "importance": "3",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 551,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "机构名称",
+              "content": "唐山银行",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 552,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（四）流动性风险",
+              "importance": 5,
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：",
+              "importance": 3,
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文档类型",
+              "content": "年度报告",
+              "importance": 5,
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 553,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "当的限额指标体系，前瞻性地分析其对流动性风险的影响，确保各项主要流动性监管指标达标",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 554,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（四）流动性风险",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：无",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "建",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 555,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "实行总量控制、结构优化管理的融资管理政策",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "战略",
+              "content": "合理控制同业负债规模，同时提高融资来源的多样性",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 556,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "多元化和稳定程度，加强融资抵（质）押品管理",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 557,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "持续加强日间流动性风险管理",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "监控措施",
+              "content": "实时监控、集中",
+              "importance": "3",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 558,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险管理措施",
+              "content": "调拨资金头寸，确保具有充足的日间流动性头寸和相关融资安排，及时满足正常和压力情景下的日",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 559,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险",
+              "content": "间支付需求",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 560,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "本行按照审慎原则，运用历史性情景和假设性情景实施流动性风险压力测试",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 561,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险评估",
+              "content": "考虑可能影响本行流动性状况的各种宏微观因素",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务特点",
+              "content": "结合本行业务特点、复杂程度",
+              "importance": "4",
+              "time_sensitivity": "低"
+            },
+            {
+              "type": "流动性管理",
+              "content": "针对流动性",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 562,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "风险集中的业务设定压力情景，本行按季度定期实施压力测试，必要时可在特殊时点，结合外部经济环境变化进行",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 563,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险",
+              "content": "进行临时性、专门性的压力测试",
+              "importance": "4",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "监管要求",
+              "content": "监管部门要求进行压力测试",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "压力测试结果",
+              "content": "2023年压力测试结果显示本行在压",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 564,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险",
+              "content": "在力情况下有足够的支付能力应对危机情景",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 565,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "定期开展流动性风险应急演练",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "目标",
+              "content": "提高应对突发性事件的能力",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 566,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "协同配合能力和应急处置水平",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 567,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理策略",
+              "content": "建立规模适当的多层次优质流动性储备",
+              "importance": "4",
+              "time_sensitivity": "低"
+            },
+            {
+              "type": "投资策略",
+              "content": "合理安排债券投资期限结构",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 568,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "financial",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险管理措施",
+              "content": "增持优质债券资产、短期自主资产投资，加大优质流动性资产储备。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 569,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "流动性风险",
+              "content": "报告期内，本行整体流动性状况",
+              "importance": "3",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 570,
+      "h1_title": "（四）流动性风险",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险评估",
+              "content": "流动性风险可控",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 571,
+      "h1_title": "（五）信息科技风险 报",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（五）信息科技风险 报",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "告",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 572,
+      "h1_title": "（五）信息科技风险 报",
+      "h2_title": "",
+      "page": 29,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "信息科技风险管理",
+              "content": "报告期内，本行重点加强制度建设、信息安全、开发测试、运行维护、业务连续性、信息科技",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 573,
+      "h1_title": "（五）信息科技风险 报",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "标题信息",
+              "content": "一级标题：（五）信息科技风险 报",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "标题信息",
+              "content": "二级标题：",
+              "importance": "3",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文本内容",
+              "content": "正",
+              "importance": "1",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 574,
+      "h1_title": "（五）信息科技风险 报",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "外包等领域的风险识别和防范工作，逐步提升信息科技风险管理水平。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 575,
+      "h1_title": "（五）信息科技风险 报",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "信息科技风险",
+              "content": "2023年，本行全年用于创新",
+              "importance": "4",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 576,
+      "h1_title": "（五）信息科技风险 报",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "性研究与应用投入占比",
+              "type": "业务指标",
+              "value": "35.81",
+              "unit": "%",
+              "time": "",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "业务投入",
+              "content": "性研究与应用的投入占科技投入的35.81%",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 577,
+      "h1_title": "（五）信息科技风险 报",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "信息科技正式员工人数",
+              "type": "人力资源指标",
+              "value": "157",
+              "unit": "人",
+              "time": "2023年末",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "员工信息",
+              "content": "本行信息科技正式员工157人",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 578,
+      "h1_title": "（五）信息科技风险 报",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "人员占比",
+              "type": "业务指标",
+              "value": "9.80%",
+              "unit": "百分比",
+              "time": "",
+              "importance": "3"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "人员信息",
+              "content": "人员占比为9.80%。",
+              "importance": "3",
+              "time_sensitivity": "无"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 579,
+      "h1_title": "1.抓好信息科技风险管理及制度建设，提升信息科技风险防范水平",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "信息科技制度新增及修订数量",
+              "type": "业务指标",
+              "value": "60多部",
+              "unit": "部",
+              "time": "报告期内",
+              "importance": "4"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "信息科技风险管理",
+              "content": "本行落实信息科技制度重检及修订",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 580,
+      "h1_title": "1.抓好信息科技风险管理及制度建设，提升信息科技风险防范水平",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "抓好信息科技风险管理及制度建设",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险防范",
+              "content": "提升信息科技风险防范水平",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "信息科技",
+              "content": "通过优化信息科技风",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 581,
+      "h1_title": "1.抓好信息科技风险管理及制度建设，提升信息科技风险防范水平",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "完善科技风险管理手段，包括险监测指标、修订信息科技风险自评估模板、调整风险评估工作机制",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 582,
+      "h1_title": "1.抓好信息科技风险管理及制度建设，提升信息科技风险防范水平",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "抓好信息科技风险管理及制度建设，提升信息科技风险防范水平",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险评估",
+              "content": "并定期落实指标监测和风险评估，逐步提高信息科技风险防范水平",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 583,
+      "h1_title": "2.加强网络安全管理，持续夯实网络安全基础",
+      "h2_title": "",
+      "page": 29,
+      "type": "governance",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "网络安全管理",
+              "content": "本行组织员工参加网络安全意识培训、技术培训以及网络安全攻防技术比赛",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "员工培训",
+              "content": "提升员工网络安全意识和技术能力",
+              "importance": "3",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 584,
+      "h1_title": "2.加强网络安全管理，持续夯实网络安全基础",
+      "h2_title": "",
+      "page": 29,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "安全措施",
+              "content": "加强网络安全管理，持续夯实网络安全基础",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "员工能力",
+              "content": "员工安全意识和技能",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 585,
+      "h1_title": "2.加强网络安全管理，持续夯实网络安全基础",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "战略",
+              "content": "积极推进终端安全软件替换项目、数据库审计系统项目，以及密码应用安全",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 586,
+      "h1_title": "2.加强网络安全管理，持续夯实网络安全基础",
+      "h2_title": "",
+      "page": 29,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "网络安全措施",
+              "content": "性评估、等级保护测评及备案、互联网系统渗透测试等，提升信息系统安全防御能力",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 587,
+      "h1_title": "2.加强网络安全管理，持续夯实网络安全基础",
+      "h2_title": "",
+      "page": 29,
+      "type": "governance",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策/战略",
+              "content": "加强网络安全管理，持续夯实网络安全基础",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务活动",
+              "content": "组织各类网络安全活动",
+              "importance": "3",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 588,
+      "h1_title": "2.加强网络安全管理，持续夯实网络安全基础",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "网络安全措施",
+              "content": "加强网络安全管理，持续夯实网络安全基础，进行网络安全风险排查并落实整改，提高网络安全防护水平。",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 589,
+      "h1_title": "3.加大项目精细化管理力度，提高项目质量",
+      "h2_title": "",
+      "page": 29,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理措施",
+              "content": "本行通过项目管理工具持续加大需求、开发、测试等阶段的规范化、精细化管理力度",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 590,
+      "h1_title": "3.加大项目精细化管理力度，提高项目质量",
+      "h2_title": "",
+      "page": 29,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "战略规划",
+              "content": "提高项目建设质量",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 591,
+      "h1_title": "3.加大项目精细化管理力度，提高项目质量",
+      "h2_title": "",
+      "page": 29,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "战略规划",
+              "content": "加大系统自主开发投入力度，提升开发自主可控能力",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 592,
+      "h1_title": "3.加大项目精细化管理力度，提高项目质量",
+      "h2_title": "",
+      "page": 29,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "战略",
+              "content": "持续推广安全开发管理",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 593,
+      "h1_title": "3.加大项目精细化管理力度，提高项目质量",
+      "h2_title": "",
+      "page": 29,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理措施",
+              "content": "加大项目精细化管理力度，提高项目质量",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "风险管理",
+              "content": "实现项目建设全过程的开发安全管理能力，有效防范系统开发过程中的各类风险",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 594,
+      "h1_title": "4.加强生产系统运行安全管理，保障系统稳定运行",
+      "h2_title": "",
+      "page": 29,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "安全管理措施",
+              "content": "本行严格落实机房基础环境、网络、主机数据库、中间件、应用系统的巡检和监控",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 595,
+      "h1_title": "4.加强生产系统运行安全管理，保障系统稳定运行",
+      "h2_title": "",
+      "page": 29,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "加强生产系统运行安全管理",
+              "type": "安全管理措施",
+              "value": "27",
+              "unit": "",
+              "time": "",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "安全管理措施",
+              "content": "加强生产系统运行安全管理，保障系统稳定运行",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 596,
+      "h1_title": "4.加强生产系统运行安全管理，保障系统稳定运行",
+      "h2_title": "",
+      "page": 30,
+      "type": "other",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理措施",
+              "content": "加强生产系统运行安全管理，确保生产系统平稳运行",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 597,
+      "h1_title": "4.加强生产系统运行安全管理，保障系统稳定运行",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "项目进展",
+              "content": "完成互联网业务区网络升级项目",
+              "importance": "4",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "系统更新",
+              "content": "更新完善应急环境",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 598,
+      "h1_title": "4.加强生产系统运行安全管理，保障系统稳定运行",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "项目信息",
+              "content": "异地灾备建设项目以及一体化运维平台二期项目建设",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "战略规划",
+              "content": "加强生产系统运行安全管理，保障系统稳定运行",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "技术支撑",
+              "content": "为业务稳定运行提供有力的技术支撑",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 599,
+      "h1_title": "5.加强基础设施建设，提高业务连续性管理水平",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "基础设施建设",
+              "content": "本行继续推进新数据中心一期工程项目建设进度",
+              "importance": "4",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 600,
+      "h1_title": "5.加强基础设施建设，提高业务连续性管理水平",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "战略",
+              "content": "加强基础设施建设，提高业务连续性管理水平",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "战略",
+              "content": "优化业务影响分析和业务连续性",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 601,
+      "h1_title": "5.加强基础设施建设，提高业务连续性管理水平",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "风险评估思路，提升重要业务识别、风险点分析的全面性和准确性",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 602,
+      "h1_title": "5.加强基础设施建设，提高业务连续性管理水平",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "业务战略",
+              "content": "开展重要系统真实接管业务实",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 603,
+      "h1_title": "5.加强基础设施建设，提高业务连续性管理水平",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "业务管理措施",
+              "content": "加强基础设施建设，提高业务连续性管理水平，通过战演练、机房基础设施故障、网络安全事件等演练提升应急处置能力。",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 604,
+      "h1_title": "5.加强基础设施建设，提高业务连续性管理水平",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "战略规划",
+              "content": "加强基础设施建设，提高业务连续性管理水平",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "战略规划",
+              "content": "组织全行深入开展业务连续性管理",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 605,
+      "h1_title": "5.加强基础设施建设，提高业务连续性管理水平",
+      "h2_title": "",
+      "page": 30,
+      "type": "business",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "业务管理",
+              "content": "加强基础设施建设，提高业务连续性管理水平",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务管理",
+              "content": "进行业务连续性管理情况自查自纠，查找不足并积极整改",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "业务管理",
+              "content": "逐步提高业务连续性管理水平",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 606,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "本行在严格落实信息科技外包各项日常管理要求的基础上，开展信息科技驻场外包",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 607,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "人员培训",
+              "content": "人员信息安全意识培训，提升外包人员信息安全意识",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 608,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "战略",
+              "content": "落实对信息科技外包商尽职调查报告模板",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 609,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "重要信息科技外包风险评估报告模板的修订",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "管理措施",
+              "content": "促进信息科技外包准入环节管理要求的有效落地",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 610,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 611,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险评估",
+              "content": "开展信息科技外包风险评估活动，全面了解外包商整体情况",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 612,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险提示",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "风险提示",
+              "content": "声誉风险",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 613,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 614,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策执行",
+              "content": "本行严格执行《银行保险机构声誉风险管理办法（试行）》",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "风险管理",
+              "content": "加强声誉风险常态化管理",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 615,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 616,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [
+            {
+              "name": "重大声誉风险事件次数",
+              "type": "风险指标",
+              "value": "0",
+              "unit": "次",
+              "time": "全年",
+              "importance": "5"
+            }
+          ],
+          "unstructured_data": [
+            {
+              "type": "信息科技外包管理",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "高"
+            },
+            {
+              "type": "声誉风险管理",
+              "content": "全流程管理，全年未发生重大声誉风险事件",
+              "importance": "5",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 617,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理措施",
+              "content": "优化工作体系",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 618,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "政策",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "中"
+            },
+            {
+              "type": "战略",
+              "content": "结合监管要求和本行实际，积极",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 619,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "优化声誉风险管理体系流程，不断提升处置流程的科学性、完备性和有效性。",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 620,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理措施",
+              "content": "提升应对处置能力",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 621,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "全面加强舆情监测，完善预警、研判及处置流程，严格落实隐患排查和舆情报告，加强跨部门信息",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 622,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理措施",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "低"
+            },
+            {
+              "type": "战略",
+              "content": "共享和协同合作，提高整体舆情应对能力",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 623,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "风险管理",
+              "content": "提高风险防范能力",
+              "importance": "4",
+              "time_sensitivity": "低"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 624,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理措施",
+              "content": "定期组织声誉风险管理专项培训",
+              "importance": "4",
+              "time_sensitivity": "中"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 625,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "管理措施",
+              "content": "加强信息科技外包管理，严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "不适用"
+            },
+            {
+              "type": "文化建设",
+              "content": "训及应急演练，着力培育人人参与的声誉文化",
+              "importance": "4",
+              "time_sensitivity": "不适用"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "block_id": 626,
+      "h1_title": "6.加强信息科技外包管理，严防信息科技外包风险",
+      "h2_title": "",
+      "page": 30,
+      "type": "risk",
+      "analysis": {
+        "analysis": {
+          "structured_data": [],
+          "unstructured_data": [
+            {
+              "type": "品牌管理",
+              "content": "通过开展正面宣传，积极提升本行品牌形象",
+              "importance": "4",
+              "time_sensitivity": "低"
+            },
+            {
+              "type": "风险管理",
+              "content": "严防信息科技外包风险",
+              "importance": "5",
+              "time_sensitivity": "高"
+            }
+          ]
+        }
+      }
     }
   ]
 }

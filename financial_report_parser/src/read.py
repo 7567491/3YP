@@ -804,6 +804,49 @@ class TextAnalyzer:
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(prompts, f, ensure_ascii=False, indent=2)
 
+    def _get_base_prompt(self) -> str:
+        """获取基础提示词"""
+        return """你是一个专业的金融文本分析专家。请分析每个句子并提取以下信息：
+1. 数值型数据：财务数据、业务指标、风险指标等
+2. 非数值信息：政策、战略、风险提示等
+3. 时间信息：具体的时间点或时间范围
+4. 上下文关系：与其他信息的关联"""
+
+    def _get_analysis_prompt(self, sentence: Dict[str, Any]) -> str:
+        """获取分析提示词"""
+        return f"""请分析以下句子，提取关键信息并按JSON格式返回：
+
+标题信息：
+一级标题：{sentence['h1_title']}
+二级标题：{sentence['h2_title']}
+
+句子内容：
+{sentence['text']}
+
+请返回以下格式的JSON：
+{{
+    "analysis": {{
+        "structured_data": [
+            {{
+                "name": "指标名称",
+                "type": "指标类型",
+                "value": "具体数值",
+                "unit": "单位",
+                "time": "时间信息",
+                "importance": "重要程度1-5"
+            }}
+        ],
+        "unstructured_data": [
+            {{
+                "type": "信息类型",
+                "content": "具体内容",
+                "importance": "重要程度1-5",
+                "time_sensitivity": "时间敏感度"
+            }}
+        ]
+    }}
+}}"""
+
     def _analyze_sentence(self, sentence: Dict[str, Any]) -> Dict[str, Any]:
         """分析单个句子"""
         # 显示分隔线和句子信息
@@ -821,31 +864,25 @@ class TextAnalyzer:
         self.logger.info(f"\n{Fore.CYAN}【文本内容】{Style.RESET_ALL}")
         self.logger.info(sentence['text'])
         
-        # 使用统一的分析提示词
-        analysis_prompt = {
-            "messages": [
-                {
-                    "role": "system",
-                    "content": self.prompts["system"]
-                },
-                {
-                    "role": "user",
-                    "content": self.prompts["user"].format(
-                        h1_title=sentence['h1_title'],
-                        h2_title=sentence['h2_title'],
-                        text=sentence['text']
-                    )
-                }
-            ]
-        }
+        # 构造分析提示词
+        messages = [
+            {
+                "role": "system",
+                "content": self._get_base_prompt()
+            },
+            {
+                "role": "user",
+                "content": self._get_analysis_prompt(sentence)
+            }
+        ]
         
         # 显示提示词
         self.logger.info(f"\n{Fore.MAGENTA}【分析提示词】{Style.RESET_ALL}")
-        self.logger.info(json.dumps(analysis_prompt, ensure_ascii=False, indent=2))
+        self.logger.info(json.dumps(messages, ensure_ascii=False, indent=2))
         
         # 调用LLM并流式显示结果
         self.logger.info(f"\n{Fore.GREEN}【LLM分析结果】{Style.RESET_ALL}")
-        response = self.llm._call_llm(analysis_prompt["messages"])
+        response = self.llm._call_llm(messages)
         
         # 验证JSON完整性
         try:
